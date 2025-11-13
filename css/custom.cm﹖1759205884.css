@@ -422,6 +422,58 @@
 	--unit-style-prod_list_show_brand_name: N;
 	--unit-style-shop_view_price: Y;
 }
+
+/* Header menu customization shared across Products pagination */
+#w2024040469af04c421302 .viewport-nav > li > a > .plain_name,
+.scroll-to-fixed-fixed #w2024040469af04c421302 .viewport-nav > li > a > .plain_name {
+	font-size: 20px !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+}
+
+#w2024040469af04c421302 .viewport-nav > li > a {
+	display: flex !important;
+	align-items: center !important;
+	line-height: normal !important;
+}
+
+#w2024040469af04c421302 .viewport-nav > li {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+#dropdown_m20241227home {
+	margin-right: 40px !important;
+}
+
+#dropdown_m20241224450535dd620e7 {
+	margin-right: 40px !important;
+}
+
+/* Mobile menu customizations for Products pagination */
+.mobile_slide_menu_container .viewport-nav.mobile > li.depth-01 > a > .plain_name {
+	font-size: 20px !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+}
+
+.mobile_slide_menu_container .viewport-nav.mobile li a.active-real {
+	background: #f5f5f5;
+	color: #111;
+}
+
+.mobile_slide_menu_container .viewport-nav.mobile li a.active-real span,
+.mobile_slide_menu_container .viewport-nav.mobile li a.has_child.open.active-real span {
+	color: #111;
+}
+
+.mobile_slide_menu_container .viewport-nav.mobile li.depth-01 {
+	border-top: 1px solid #f3f3f3;
+}
+
+.mobile_slide_menu_container .viewport-nav.mobile li.depth-01:first-child {
+	border-top: none;
+}
     :root {
 		--unit-style--font-family: 'Droid Sans','Pretendard','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
 	}
